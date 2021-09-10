@@ -1,0 +1,4 @@
+include LICENSE
+include ffp4mof/electronegativities.json
+include ffp4mof/models/*/*.pickle
+include ffp4mof/scalers/*/*.gz
