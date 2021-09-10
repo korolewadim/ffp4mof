@@ -21,7 +21,7 @@ FFP4MOF can be installed via the following command
 pip install git+https://github.com/korolewadim/ffp4mof.git
 ```
 
-The saved models are available at <a href="https://doi.org/10.5281/zenodo.5500642"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5500642.svg" alt="DOI"></a>
+The saved models are available at <a href="https://doi.org/10.5281/zenodo.5500642"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5500642.svg" alt="DOI"></a>. The unzipped `saved_models.zip` archive should be placed in the `ffp4mof` folder.
 
 ## Citation
 
