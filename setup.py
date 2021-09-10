@@ -18,7 +18,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     include_package_data=True,
-    packages=setuptools.find_packages(),
+    packages=["ffp4mof"],
     python_requires=">=3.9",
     install_requires=[
         "ase==3.22.0",
