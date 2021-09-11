@@ -8,10 +8,11 @@ setuptools.setup(
     version="1.0.0",
     author="Vadim Korolev",
     author_email="korolewadim@gmail.com",
-    description="A small example package",
+    description="Force Field Precursors for Metal-Organic Frameworks",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/korolewadim/ffp4mof",
+    license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3.9",
         "License :: OSI Approved :: MIT License",
