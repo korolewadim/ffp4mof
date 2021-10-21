@@ -17,7 +17,7 @@ ffps = structure.as_dataframe()
 
 ## Installation
 
-We strongly recommend the Anaconda distribution of Python (3.9 release is required). You can create and activate a new conda environment with commands
+We strongly recommend the [Anaconda](https://www.anaconda.com) distribution of Python (3.9 release is required). You can create and activate a new conda environment with commands
 ```
 conda create --name ffp4mof python=3.9
 conda activate ffp4mof
