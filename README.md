@@ -16,6 +16,12 @@ Structure.from_file("filename.json")
 
 ## Installation
 
+We strongly recommend the Anaconda distribution of Python (3.9 release is required). You can create and activate a new conda environment with commands
+```
+conda create --name ffp4mof python=3.9
+conda activate ffp4mof
+```
+
 FFP4MOF can be installed via the following command
 ```
 pip install git+https://github.com/korolewadim/ffp4mof.git
