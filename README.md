@@ -1,6 +1,6 @@
 # FFP4MOF
 
-FFP4MOF is a python library aimed at calculating force field precursors (FFPs) for metal-organic frameworks (MOFs) using a machine learning approach. It uses a CIF file as input data and produces a JSON file containing calculated FFPs, including partial charges, polarizabilities, dispersion coefficients, QDO parameters, and electron cloud parameters. The output file can be read using the pymatgen library.
+FFP4MOF is a python library aimed at calculating force field precursors (FFPs) for metal-organic frameworks (MOFs) using a machine learning approach. It uses a CIF file as input data and produces a JSON file containing calculated FFPs, including partial charges, polarizabilities, dispersion coefficients, QDO parameters, and electron cloud parameters. The output file can be read using the [pymatgen](https://pymatgen.org) library, calculated FFPs are available via `as_dataframe()` method.
 
 ```python
 from ffp4mof.predict import get_ffps
@@ -11,7 +11,8 @@ get_ffps("filename.cif")
 ```python
 from pymatgen import Structure
 
-Structure.from_file("filename.json")
+structure = Structure.from_file("filename.json")
+ffps = structure.as_dataframe()
 ```
 
 ## Installation
