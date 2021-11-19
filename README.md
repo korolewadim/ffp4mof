@@ -35,5 +35,5 @@ The saved models are available at <a href="https://doi.org/10.5281/zenodo.550064
 If you find this code useful, please cite the following manuscript:
 
     Korolev, V. V., Nevolin, Y. M., Manz, T. A., & Protsenko, P. V. (2021).
-    Parametrization of Non-Bonded Force Field Terms for Metal-Organic Frameworks Using Machine Learning Approach.
-    arXiv preprint arXiv:2107.06044.
+    Parametrization of Nonbonded Force Field Terms for Metal–Organic Frameworks Using Machine Learning Approach.
+    Journal of Chemical Information and Modeling, [10.1021/acs.jcim.1c01124](https://doi.org/10.1021/acs.jcim.1c01124).
